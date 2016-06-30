@@ -60,10 +60,9 @@ public class MainActivity extends AppCompatActivity {
             data.add(new String[]{"India", "New Delhi"});
             data.add(new String[]{"United States", "Washington D.C"});
             data.add(new String[]{"Germany", "Berlin"});
-
             writer.writeAll(data);
-
             writer.close();
+
         } catch (Exception e) {
 
             e.printStackTrace();
